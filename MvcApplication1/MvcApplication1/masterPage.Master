@@ -1,0 +1,92 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="masterPage.master.cs" Inherits="MvcApplication1.masterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+        }
+        .auto-style2 {
+            width: 111px;
+        }
+        .auto-style3 {
+            width: 111px;
+            height: 23px;
+        }
+        .auto-style4 {
+            height: 23px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+            <p>
+                <br />
+            </p>
+            <table class="auto-style1">
+                <tr>
+                    <td class="auto-style2">
+                        <asp:Image ID="Image1" runat="server" Height="117px" ImageUrl="~/image/LACity.gif" Width="147px" />
+                    </td>
+                    <td>Welcome to City of Los Angeles Applicant Resource Center</td>
+                </tr>
+                <tr>
+                    <td class="auto-style3"></td>
+                    <td class="auto-style4">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style2">&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style2">&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style2">&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style2">&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style2">&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style2">&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style2">&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style2">&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+            </table>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
